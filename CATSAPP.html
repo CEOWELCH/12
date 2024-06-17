@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> <h1>Cat Photo App</h1>/title>
+</head>
+<body>
+	<h2>Cat Photos</h2>
+	<section>
+	 <img src="downloads/catimages.jpeg"></a>
+	</section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>Climbing</li>
+          <li>Boxes</li>
+          <li>Scratching/li>
+        </ul>
+        <figure>
+        	<img src="downloads/catscratching.jpeg">
+        	<figcaption>Cats love Boxes</figcaption>  
+        </figure>
+          </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>Stale food</li>
+          <li>Car Rides</li>
+          <li>Being ignored</li>
+        </ol>
+        <figure>
+        	  <img src="downloads/cathatestrangers.jpeg">
+          <figcaption>Cats hate Strangers.</figcaption>  
+            </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+         <form action="https://catapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+</body>
+</html>
